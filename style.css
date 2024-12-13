@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (min-width:320px){
+
+    .nav-part{
+        background-color: aqua;
+        width: 100vw;
+        height: 8vh;
+        display: flex;
+        gap: 80vw;
+        justify-content: space-around;
+    }
+    #logo-part {
+        width: 6vw;
+        height: 2.5vh;
+    }
+    #logo-part img {
+        width: 16vw;
+        height: 7vh;
+        object-fit: cover;
+        border-radius: 1vw;
+        margin: 0.5vh 0 0 0;
+    }
+    .fa-bars {
+        font-size: 5vh;
+        align-self: center;
+        color: rgb(114, 114, 114);
+    }
+    .sec-part {
+        background-color: rgb(22, 207, 93);
+        width: 100vw;
+        height: auto;
+    }
+
+    .sec-part video {
+        width: 93vw;
+        height: 35vh;
+        object-fit: cover;
+        margin:1vh 0 0 3.5vw ;
+        border-radius: 2vw;
+    }
+    #head {
+        margin: 5vw 0 0 0;
+        text-align: center;
+    }
+    .item {
+        background-color: rgb(195, 158, 230);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1.5vh ;
+        padding: 1vw;
+    }
+    .card {
+        background-color: cornflowerblue;
+        width: 90vw;
+        height: 55vh;
+        padding: 2.4vw;
+        margin: 0 0 1vh 0;
+        border-radius: 1.5vw;
+    }
+    /* .card .img {
+        width: 90vw;
+        height: 28vh;
+    } */
+    .img img {
+        width: 90vw;
+        height: 28vh;
+        object-fit: cover;
+        border-radius: 1.5vw;
+    }
+    .card .desc {
+        width: 90vw;
+        height:20vh ;
+        margin: 2vw 0 0 0;
+    }
+    .desc h2 {
+        text-align: center;
+    }
+    .desc p {
+        margin-top: 2vw;
+       text-align: justify;
+       line-height: 1.5;
+    }
+    .desc button {
+        padding: 2vw;
+        font-size: 4.5vw;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 1.5vw;
+        margin: 2.5vh 0 0 29vw;
+    }
+
+    #footer {
+        background-color: rgb(168, 230, 107);
+        width: 96vw;
+        height: auto;
+        padding: 2vw;
+    }
+    .para {
+        margin: 1vh 0 ;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    iframe {
+        margin-top: 1vh;
+        width:96vw;
+        height:50vh;
+        border-radius: 1vw;
+    }
+    .icons {
+        margin: 1.5vh 5vw;
+        font-size: 11vw;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 5vw;
+    }
+    #footer #copy {
+        margin-top: 1vh;
+        text-align: center;
+    }
+}
